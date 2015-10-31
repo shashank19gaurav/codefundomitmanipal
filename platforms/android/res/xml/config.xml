@@ -4,6 +4,9 @@
     <feature name="InstalledApps">
         <param name="android-package" value="info.quatinus.cordova.plugins.installedApps" />
     </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
     <allow-intent href="market:*" />
     <name>InAppception</name>
     <description>
@@ -20,7 +23,4 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <feature name="Camera">
-        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
-    </feature>
 </widget>
