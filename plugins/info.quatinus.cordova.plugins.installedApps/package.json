@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "name": "info.quatinus.cordova.plugins.installedapps",
+    "cordova_name": "InstalledApps",
+    "platforms": [
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.4.0"
+        }
+    ]
+}

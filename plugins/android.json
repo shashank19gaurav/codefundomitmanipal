@@ -1,0 +1,26 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"InstalledApps\"><param name=\"android-package\" value=\"info.quatinus.cordova.plugins.installedApps\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "info.quatinus.cordova.plugins.installedApps": {
+            "PACKAGE_NAME": "com.inappception.v1"
+        }
+    },
+    "dependent_plugins": {}
+}
