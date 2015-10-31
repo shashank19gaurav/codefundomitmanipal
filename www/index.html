@@ -11,18 +11,14 @@
     <body>
         <div class="app">
             <div id="deviceready" class="blink">
-			            <h1>Welcome to Inappception</h1>
-			            <script>
-			            	var success = function( object ) {
-						        console.log( object );
-						    }
-
-						    var failure = function() {
-						        alert("Error calling Installed Apps Plugin");
-						    }
-
-						    installedApps.getPackages( success, failure);
-			            </script>
+			    <h1>Welcome to Inappception</h1>
+				<p class="event listening">
+                        Connecting to the device
+                    </p>
+                    <p class="event received">
+                        Connecting to the device
+                    </p>
+                <p class="info"></p>		            
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
